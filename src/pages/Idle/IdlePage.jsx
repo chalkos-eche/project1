@@ -1,8 +1,6 @@
 import React from 'react';
-import { styled } from 'styled-components';
 import Idle from '../../components/Idle';
-const Layout = styled.div``;
-
+import Layout from '../../components/Layout/Layout';
 const IdlePage = () => {
 	return (
 		<Layout>

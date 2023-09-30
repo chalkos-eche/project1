@@ -1,10 +1,8 @@
 import React from 'react';
-import { styled } from 'styled-components';
-
-const SLayout = styled.div``;
+import * as S from './Layout.styled';
 
 const Layout = ({ children }) => {
-	return <div>{children}</div>;
+	return <S.Layout>{children}</S.Layout>;
 };
 
 export default Layout;
