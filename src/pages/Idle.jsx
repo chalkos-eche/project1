@@ -19,7 +19,6 @@ const randomIndex = Math.floor(Math.random() * ImgArray.length);
 const backgroundRandomimg = ImgArray[randomIndex].src;
 
 const Wrapper = styled.div`
-	background-image: url('/src/assets/images/idle-image.jpg');
 	background-image: url(${backgroundRandomimg});
 	background-size: auto 100%;
 	background-repeat: no-repeat;
@@ -38,7 +37,6 @@ const Idle = () => {
 			<h1>Flower Shop</h1>
 			<h2>꽃,가게</h2>
 			<p>스크린을 터치해주세요.</p>
-			{/* <img src={idleImage} alt="test" /> */}
 		</Wrapper>
 	);
 };
