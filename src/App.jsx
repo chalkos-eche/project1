@@ -9,11 +9,11 @@ const Layout = styled.div`
 
 function App() {
 	return (
-		<div className="App">
+		<Layout>
 			<Link to="/main">
 				<Idle />
 			</Link>
-		</div>
+		</Layout>
 	);
 }
 
