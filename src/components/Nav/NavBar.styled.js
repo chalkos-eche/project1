@@ -6,7 +6,7 @@ export const Nav = styled.nav`
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	width: 10rem;
+	width: fit-content;
 	min-height: 20.4rem;
 	border-radius: 2rem;
 	background-color: #f0f0f0;

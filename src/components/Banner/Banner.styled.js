@@ -1,7 +1,6 @@
 import { styled } from 'styled-components';
 
 export const Banner = styled.div`
-	margin: 1rem;
 	& img {
 		border-radius: 12px;
 		width: 100%;

@@ -4,15 +4,17 @@ import Layout from './../../components/Layout/Layout';
 import NavBar from './../../components/Nav/NavBar';
 
 import * as S from './MainPage.styled';
+import ItemBox from './../../components/ItemBox/ItemBox';
+import Logo from '../../components/Logo/Logo';
 const MainPage = () => {
 	return (
 		<Layout>
 			<header>
-				<h1>Logos</h1>
+				<Logo />
 				<Banner />
 			</header>
 			<S.Main>
-				<NavBar />
+				<ItemBox />
 				<NavBar />
 			</S.Main>
 			<footer>
