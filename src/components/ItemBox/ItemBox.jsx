@@ -2,6 +2,8 @@ import React from 'react';
 import BoxTitle from './BoxTitle/BoxTitle';
 import Item from './Item/Item';
 import { styled } from 'styled-components';
+import { MdKeyboardDoubleArrowDown, MdKeyboardDoubleArrowUp } from 'react-icons/md';
+import { IconContext } from 'react-icons';
 
 const ItemBoxWrapper = styled.div`
 	display: flex;
@@ -17,9 +19,19 @@ const ItemBoxWrapper = styled.div`
 	& aside {
 		display: flex;
 	}
-	& aside p {
-		width: 18rem;
-		background-color: #000;
+	& aside aside {
+		justify-content: space-between;
+		width: 100%;
+		flex-wrap: wrap;
+		min-width: 28rem;
+		background-color: aliceblue;
+		gap: 1.2rem;
+	}
+	& aside article {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding-bottom: 2rem;
 	}
 `;
 const ItemBox = () => {
@@ -27,16 +39,18 @@ const ItemBox = () => {
 		<ItemBoxWrapper>
 			<BoxTitle />
 			<aside>
-				<p>
+				<aside>
 					<Item />
 					<Item />
 					<Item />
 					<Item />
-				</p>
-				<div>
-					<div>up Arrow</div>
-					<div>down Arrow</div>
-				</div>
+				</aside>
+				<article>
+					<IconContext.Provider value={{ size: '2rem', className: 'arrow_icon' }}>
+						<MdKeyboardDoubleArrowUp />
+						<MdKeyboardDoubleArrowDown />
+					</IconContext.Provider>
+				</article>
 			</aside>
 		</ItemBoxWrapper>
 	);
