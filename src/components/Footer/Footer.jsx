@@ -1,11 +1,12 @@
 import React from 'react';
+import * as S from './Footer.styled';
 
 const Footer = () => {
 	return (
-		<div>
+		<S.Footer>
 			<div>취소</div>
 			<div>주문하기</div>
-		</div>
+		</S.Footer>
 	);
 };
 

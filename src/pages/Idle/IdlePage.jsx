@@ -1,10 +1,13 @@
 import React from 'react';
 import Idle from '../../components/Idle';
 import Layout from '../../components/Layout/Layout';
+import { Link } from 'react-router-dom';
 const IdlePage = () => {
 	return (
 		<Layout>
-			<Idle />
+			<Link to="/main">
+				<Idle />
+			</Link>
 		</Layout>
 	);
 };

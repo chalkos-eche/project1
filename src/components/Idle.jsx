@@ -24,6 +24,7 @@ const Wrapper = styled.div`
 	background-repeat: no-repeat;
 	background-position: center;
 	min-width: 50rem;
+	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
