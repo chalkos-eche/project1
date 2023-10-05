@@ -11,6 +11,7 @@ const CartItemList = styled.div`
 	background-color: #2d303e;
 	border-radius: 2rem;
 	height: 10rem;
+	display: flex;
 `;
 
 const CartBox = () => {
