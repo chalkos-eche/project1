@@ -17,10 +17,12 @@ const MainPage = () => {
 					<Banner />
 				</header>
 				<S.Main>
-					<ItemBox />
-					<NavBar />
+					<S.ItemContainer>
+						<ItemBox />
+						<NavBar />
+					</S.ItemContainer>
+					<CartBox />
 				</S.Main>
-				<CartBox />
 				<Footer />
 			</S.MainPageContainer>
 		</Layout>

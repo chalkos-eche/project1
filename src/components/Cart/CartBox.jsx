@@ -3,6 +3,7 @@ import CartItem from './CartItem';
 import { styled } from 'styled-components';
 
 const CartBoxWrapper = styled.div`
+	margin-top: 0.8rem;
 	width: 100%;
 	background-color: blue;
 `;

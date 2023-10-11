@@ -10,7 +10,7 @@ const ItemBoxWrapper = styled.div`
 	flex: 1 1 0;
 	margin: 0 1rem;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-end;
 	width: 500px;
 	height: 100%;
 
