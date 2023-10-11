@@ -4,9 +4,13 @@ import Image1 from '../../assets/images/Item1.png';
 const StyledCartItem = styled.div`
 	width: 8.4rem;
 	height: 8.4rem;
-	border: 2rem;
-	background-color: #edf2f7;
-	& image {
+	/* background-color: #edf2f7; */
+	background-color: darkblue;
+	border-radius: 2rem;
+	margin: 1rem;
+	& img {
+		width: 10px;
+		height: 10px;
 	}
 	& button {
 		background-color: #fff;
