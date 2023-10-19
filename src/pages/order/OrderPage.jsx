@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout/Layout';
+import { Link } from 'react-router-dom';
 
 const OrderPage = () => {
 	return (
@@ -29,9 +30,13 @@ const OrderPage = () => {
 					<div>
 						<button>애플페이</button>
 						<button>카카오페이</button>
-						<button>신용카드</button>
+						<button>
+							<Link to="/payment">신용카드</Link>
+						</button>
 						<button>현금결제</button>
-						<button>취소하기</button>
+						<button>
+							<Link to="/main">취소하기</Link>
+						</button>
 					</div>
 				</div>
 			</div>
