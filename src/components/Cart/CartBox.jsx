@@ -6,6 +6,7 @@ const CartBoxWrapper = styled.div`
 	margin-top: 0.8rem;
 	width: 100%;
 	background-color: blue;
+	margin-bottom: 40px;
 `;
 const CartItemList = styled.div`
 	width: 100%;

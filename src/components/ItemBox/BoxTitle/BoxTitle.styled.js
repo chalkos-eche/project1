@@ -9,7 +9,6 @@ export const BoxTitle = styled.article`
 		font-family: Spoqa Han Sans Neo;
 		font-size: 2.4rem;
 		font-weight: 700;
-		line-height: 4.8rem;
 		letter-spacing: -0.024rem;
 	}
 	h3 {
@@ -36,5 +35,6 @@ export const BoxTitle = styled.article`
 		font-weight: 300;
 		line-height: 2.4rem;
 		letter-spacing: -0.014rem;
+		margin-bottom: 0.4rem;
 	}
 `;

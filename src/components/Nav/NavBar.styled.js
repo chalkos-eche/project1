@@ -2,6 +2,7 @@ import { styled } from 'styled-components';
 
 export const Nav = styled.nav`
 	margin: 0 2rem;
+	margin-bottom: 6rem;
 	/* flex: 1 1 0; */
 	display: flex;
 	flex-direction: column;
