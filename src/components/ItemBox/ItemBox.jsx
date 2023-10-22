@@ -22,6 +22,7 @@ const ItemBoxWrapper = styled.div`
 	/* itemlist */
 	& aside {
 		display: flex;
+		max-height: 42rem;
 	}
 	/* item list  */
 	& aside aside {
