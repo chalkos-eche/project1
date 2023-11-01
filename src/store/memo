@@ -1,0 +1,8 @@
+
+1. useCartStore ( 장바구니 역할 해야함 )
+* 선택한 수량 함수
+* 장바구니 localStorage 에서 가져오기. 없으면 빈값  ( 혹은 persist Store )
+* 장바구니에 아이템 추가 = id 값을 찾아서 동일하면 count 증가 : 없으면 장바구니value 에 추가 
+* 
+2. useItemStroe (아이템 컨텐츠(가격 내용 등) 꺼내와야함 )
+3. 
