@@ -3,7 +3,10 @@ import { useCartStore } from '../../store/practice';
 import { ItemList } from '../../store/practice';
 
 const Untitled = () => {
-	const { defaultCart, increaseCart, decreaseCart } = useCartStore();
+	// const { defaultCart, increaseCart, decreaseCart } = useCartStore();
+	const defaultCart = useCartStore(state => state.defaultCart);
+	const increaseCart = useCartStore(state => state.increaseCart);
+	const decreaseCart = useCartStore(state => state.decreaseCart);
 	// zustand의 불필요한 렌더링 최적화
 	// BEFORE :
 	// const { defaultCart, increaseCart, decreaseCart } = useCartStore();

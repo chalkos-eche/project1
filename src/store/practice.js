@@ -15,12 +15,14 @@ export const useCartStore = create(set => ({
 		// defaultCart에서 id를 찾아, 이미 중복되어있다면 amount 증가 : 아니면 defaultCart 새로운 항목 push
 		set(state => {
 			const existingItemIndex = state.defaultCart.findIndex(item => item.pid === value.pid);
+			// 수량증가
 			if (existingItemIndex !== -1) {
 				const updatedCart = [...state.defaultCart];
 				updatedCart[existingItemIndex].amount += 1;
 				return {
 					defaultCart: updatedCart,
 				};
+				// hasItem
 			} else {
 				return {
 					defaultCart: [...state.defaultCart, { ...value, amount: 1 }],
